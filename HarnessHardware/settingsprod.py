@@ -59,9 +59,11 @@ WSGI_APPLICATION = 'HarnessHardware.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "harnesshardware",
-        'HOST': "localhost",
-        'PORT': "",
+        'NAME': 'harnesshardware',
+        'USER': 'Medakovic',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
