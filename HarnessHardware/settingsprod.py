@@ -6,8 +6,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-1tefjkoic%3p++02of2!o0lnb#pxjgzxsbuvuzrym6*=ae*-sz'
 DEBUG = False
 
-CORS_ALLOWED_ORIGINS = ['harnesshardware.com',
-                        '*harnesshardware.com']
+CORS_ALLOWED_ORIGINS = [
+    'https://harnesshardware.com',
+    'http://harnesshardware.com',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
