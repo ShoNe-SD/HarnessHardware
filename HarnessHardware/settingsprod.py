@@ -60,8 +60,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': "harnesshardware",
-        'USER': "Medakovic",
-        'PASSWORD': 'Krompirpire#123',
+        'USER': "postgres",
+        'PASSWORD': 'postgres',
         'HOST': "localhost",
         'PORT': "",
     }
