@@ -1,11 +1,10 @@
 from pathlib import Path
 import os
-from decouple import config
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
+SECRET_KEY = 'django-insecure-1tefjkoic%3p++02of2!o0lnb#pxjgzxsbuvuzrym6*=ae*-sz'
+DEBUG = False
 
 CORS_ALLOWED_ORIGINS = ['*']
 
